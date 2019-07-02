@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:textAlignment="center"
+    tools:context=".DijkstraExecutor">
+
+    <!-- 1: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n1"
+        style="@style/EstiloTextoColoracao"
+        android:text="@string/coloracao_n1" />
+
+    <TextView
+        android:id="@+id/dijkstra_l1"
+        style="@style/EstiloTextoColoracao"
+        android:layout_marginStart="35sp"
+        android:text="@string/dijkstra_lin1" />
+
+    <!-- 2: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n2"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l1"
+        android:text="@string/coloracao_n2" />
+
+    <TextView
+        android:id="@+id/dijkstra_l2"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l1"
+        android:layout_marginStart="35sp"
+        android:text="@string/dijkstra_lin2" />
+
+    <!-- 3: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n3"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l2"
+        android:text="@string/coloracao_n3" />
+
+    <TextView
+        android:id="@+id/dijkstra_l3"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l2"
+        android:layout_marginStart="35sp"
+        android:text="@string/dijkstra_lin3" />
+
+    <!-- 4: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n4"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l3"
+        android:text="@string/coloracao_n4" />
+
+    <TextView
+        android:id="@+id/dijkstra_l4"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l3"
+        android:layout_marginStart="35sp"
+        android:text="@string/dijkstra_lin4" />
+
+    <!-- 5: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n5"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l4"
+        android:text="@string/coloracao_n5" />
+
+    <TextView
+        android:id="@+id/dijkstra_l5"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l4"
+        android:layout_marginStart="35sp"
+        android:text="@string/dijkstra_lin5" />
+
+    <!-- 6: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n6"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l5"
+        android:text="@string/coloracao_n6" />
+
+    <TextView
+        android:id="@+id/dijkstra_l6"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l5"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0sp"
+        android:text="@string/dijkstra_lin6" />
+
+    <!-- 7: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n7"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l6"
+        android:text="@string/coloracao_n7" />
+
+    <TextView
+        android:id="@+id/dijkstra_l7"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l6"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0dp"
+        android:text="@string/dijkstra_lin7" />
+
+    <!-- 8: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n8"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l7"
+        android:text="@string/coloracao_n8" />
+
+    <TextView
+        android:id="@+id/dijkstra_l8"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l7"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0dp"
+        android:text="@string/dijkstra_lin8" />
+
+    <!-- 9: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n9"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l8"
+        android:text="@string/coloracao_n9" />
+
+    <TextView
+        android:id="@+id/dijkstra_l9"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l8"
+        android:layout_marginStart="35sp"
+        android:paddingStart="50sp"
+        android:paddingEnd="0dp"
+        android:text="@string/dijkstra_lin9" />
+
+    <!-- 10: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n10"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l9"
+        android:text="@string/coloracao_n10" />
+
+    <TextView
+        android:id="@+id/dijkstra_l10"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l9"
+        android:layout_marginStart="35sp"
+        android:paddingStart="70sp"
+        android:paddingEnd="0dp"
+        android:text="@string/dijkstra_lin10" />
+
+    <!-- 11: Linha -->
+
+    <TextView
+        android:id="@+id/dijkstra_n11"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l10"
+        android:text="@string/coloracao_n11" />
+
+    <TextView
+        android:id="@+id/dijkstra_l11"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/dijkstra_l10"
+        android:layout_marginStart="35sp"
+        android:text="@string/dijkstra_lin11" />
+</RelativeLayout>

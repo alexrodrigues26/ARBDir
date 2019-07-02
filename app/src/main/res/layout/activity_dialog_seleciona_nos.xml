@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DialogSelecionaNo">
+
+    <TextView
+        android:id="@+id/noOrigem"
+        style="@style/EstiloTextoAlertDialog"
+        android:text="@string/seleciona_origem" />
+
+    <Spinner
+        android:id="@+id/spNoOrigem"
+        style="@style/EstiloSpinnerAlertDialog"
+        android:layout_below="@id/noOrigem"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/noDestino"
+        style="@style/EstiloTextoAlertDialog"
+        android:layout_below="@id/spNoOrigem"
+        android:text="@string/seleciona_destino" />
+
+    <Spinner
+        android:id="@+id/spNoDestino"
+        style="@style/EstiloSpinnerAlertDialog"
+        android:layout_below="@id/noDestino"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

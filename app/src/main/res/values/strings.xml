@@ -1,0 +1,275 @@
+<resources>
+    <!-- As strings serão separadas e explicadas por classes. -->
+    <!-- (MainActivity) -->
+    <!-- Nome do aplicativo e texto para pagina inicial. -->
+    <string name="app_name">AAthena</string>
+
+    <!-- Botões da pagina inicial. -->
+    <string name="btn_comecar">Começar</string>
+    <string name="btn_sobre">Sobre</string>
+    <string name="btn_ajuda">Ajuda</string>
+
+    <!-- String para a toolbar da MainActivity. -->
+    <string name="toolbar_main_activity">Bem vindo ao Athena</string>
+
+    <!-- (Sobre) -->
+    <!-- String para a toolbar da Sobre. -->
+    <string name="toolbar_sobre">Informações sobre o App</string>
+
+    <!-- String dos grupos de Sobre. -->
+    <string name="txt_tg">O que é a Teoria dos Grafos?</string>
+    <string name="txt_athena">O que é o AAthena?</string>
+    <string name="txt_autores">Desenvolvedores.</string>
+
+    <!-- String dos filhos dos groups de Sobre. -->
+    <string name="txt_tg_child">A teoria dos grafos é a parte da matemática que estuda a relação entre objetos que possuem características relevantes entre si. Os grafos podem ser utilizados como modelos para representação de diversos problemas em variadas áreas, tais como: engenharia, biologia, serviços e indústria. Por meio dos seus algoritmos, é possível solucionar esses problemas.</string>
+    <string name="txt_athena_child">Este aplicativo tem por objetivo fornecer um meio para o estudo de teoria dos grafos, denominado AAthena (Athena para Android). Dentre as suas funcionalidades, tem-se: permite a criação visual de grafos e a apresentação de algumas propriedades básicas dos grafos. A partir dele, também é possível realizar a execução de alguns algoritmos e visualizar os resultados de forma simplificada.</string>
+    <string name="txt_autores_child_1">Gabriel Ricardo dos Santos</string>
+    <string name="txt_autores_child_2">Alex Rodrigues Braz</string>
+
+    <!-- (Ajuda) -->
+    <!-- String para a toolbar da Ajuda. -->
+    <string name="toolbar_ajuda">Ajuda de como usar o App</string>
+
+    <!-- String dos grupos de Ajuda. -->
+    <string name="como_posicionar_grao">Como posicionar o meu grafo?</string>
+    <string name="como_add_no">Como adicionar um nó?</string>
+    <string name="como_add_aresta">Como adicionar uma aresta?</string>
+    <string name="como_deletar_elemento">Como remover um elemento?</string>
+    <string name="como_descolorir">Como remover a coloração do grafo?</string>
+    <string name="como_informacoes_gerais">O que são informações gerais?</string>
+    <string name="algo_disponivel">Quais algoritmos estão disponíveis?</string>
+
+    <!-- String dos filhos dos groups de Ajuda. -->
+    <string name="como_posicionar_grao_child">A área de desenho do grafo está em constante expansão para facilitar a sua representação e visualização. Para posicionar o grafo na tela sem que ocorra uma expansão, deve-se colocar dois nós em posições opostas para fixá-la, então, os nós que estiverem entre esses dois podem ser deslocados livremente.</string>
+    <string name="como_add_no_child">Para adicionar um nó basta clicar no botão "\"Add nó"\" com o símbolo de + na aba "\"GRAFO"\".</string>
+    <string name="como_add_aresta_child">Para adicionar uma aresta, basta clicar no botão "\"Add aresta"\" com o símbolo de três bolinhas ligadas por uma linha na aba "\"GRAFO"\". Então, quando aparecer a caixa de diálogo, selecione: o nó de origem, o nó de destino e informe o peso da aresta. Caso não seja informado nenhum valor para o peso, será atribuído 1, porém ele não ficará visível.</string>
+    <string name="como_deletar_elemento_child">Para remover um elemento do grafo (nó ou aresta), basta clicar no botão "\"Remover"\" com o símbolo de - na aba "\"GRAFO"\". Quando aparecer a caixa de diálogo, informar se deseja remover nó ou aresta e, depois, selecionar na lista o elemento a ser removido.</string>
+    <string name="como_descolorir_child">Para retomar as cores originais do grafo basta clicar nos três pontos na aba, "\"FUNÇÕES"\" e selecionar "\"Descolorir grafo"\".</string>
+    <string name="como_informacoes_gerais_child">Informações gerais são características a respeito do grafo que foi desenhado, tais como: ordem (n) , tamanho (m), orientação (direcionado ou não direcionado), conexidade (C0, C1, C2 ou C3) para grafo direcionado e (conexo  e desconexo) para grafo não direcionado, e G = (V, E), onde V são a lista de nós e E a relação de arestas.</string>
+    <string name="algo_disponivel_child_1">Dijkstra</string>
+    <string name="algo_disponivel_child_2">Coloração por classe</string>
+    <string name="algo_disponivel_child_3">Busca em largura</string>
+    <string name="algo_disponivel_child_4">Busca em profundidade</string>
+
+    <!-- (SelecionaOrientacao) -->
+    <!-- String para a toolbar da SelecionaOrientacao. -->
+    <string name="toolbar_selecionar_orientacao">Selecione a orientacao do grafo</string>
+
+    <!-- Botões da pagina SelecionaOrientacao. -->
+    <string name="btn_orientado">Orientado</string>
+    <string name="btn_nao_orientado">Não orientado</string>
+
+    <!-- (Tab) -->
+    <!-- Toolbar da página Tab se for Orientado ou não Orientado. -->
+    <string name="toolbar_tab_orientado">Grafo Orientado</string>
+    <string name="toolbar_tab_nao_orientado">Grafo Nâo Orientado</string>
+
+    <!-- (menu_grafo) -->
+    <!-- Descrição dos itens do menu. -->
+    <string name="add_no">Add nó</string>
+    <string name="add_aresta">Add aresta</string>
+    <string name="deletar">Remover</string>
+
+    <!-- (GrafoFragment) -->
+    <!-- Mensagem avisando que grafo não orientado não pode auto-laços. -->
+    <string name="auto_laco_proibido">Não pode auto-laços</string>
+
+    <!-- Mensagem aresta já existe. -->
+    <string name="aresta_existente">Aresta já existe</string>
+
+    <!-- Limite de nós atingidos -->
+    <string name="no_maximo">Não pode adcionr mais nós</string>
+
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_grafo">deve implementar HelperGrafo.</string>
+
+    <!-- (GrafoOrientadoFragment) -->
+
+    <!-- (FuncoesFragment) -->
+    <!-- Descrição dos botões. -->
+    <string name="dec_btn_executar">Botão para executar o codigo.</string>
+
+    <!-- Texto dos Toast quando o botão é clicado. -->
+    <string name="escolha_funcionalidade">Escolha um funcionalidade.</string>
+
+    <!-- Texto para o tvResp quando o botão é clicado. -->
+    <string name="info_grafo">Execute para ver as informações do grafo.</string>
+    <string name="disjktra">Execute para ver o caminho minimo.</string>
+    <string name="coloracao">Execute para ver a coloração do grafo.</string>
+    <string name="busca_profundidade">Execute para ver a busca em profundidade.</string>
+    <string name="busca_largura">Execute para ver a busca em largura.</string>
+
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_funcoes">deve implementar HelperFuncoes.</string>
+
+    <!-- Grafo está vazio. -->
+    <string name="grafo_vazio">Desenhe um grafo primeiro</string>
+
+    <!-- Array com as funcionalidades do aplicativo. -->
+    <string-array name="funcoes">
+        <item>***</item>
+        <item>Informações Gerais</item>
+        <item>Dijkstra</item>
+        <item>Coloração</item>
+        <item>Busca em profundidade</item>
+        <item>Busca em largura</item>
+    </string-array>
+
+    <!-- (DialogAddAresta) -->
+    <!-- Mensagens do Dialog. -->
+    <string name="no_saida">Selecione nó de saída:</string>
+    <string name="no_entrada">Selecione nó de entrada:</string>
+    <string name="peso_aresta">Digite o peso da aresta:</string>
+    <string name="peso_aresta_hint">Peso da aresta</string>
+    <string name="peso_aresta_dica">Se o campo ficar vazio sera criada aresta de peso 1, porem não sera visível.</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_add">Add</string>
+
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_add">deve implementar HelperAddAresta.</string>
+
+
+    <string name="selecione_para_deletar">Selecione o que quer remover:</string>
+    <string name="nos">Nós</string>
+    <string name="arestas">Arestas</string>
+
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_deletar">deve implementar HelperDeletar</string>
+
+    <!-- (MostraInfo) -->
+    <!-- Mensagens do layout. -->
+    <string name="des_orientacao">Orientação do grafo:</string>
+    <string name="des_conexidade">Conexidade:</string>
+    <string name="des_ordem_grafo">Ordem (n):</string>
+    <string name="des_tamanho_grafo">Tamanho (m):</string>
+    <string name="des_g">G = (V,E):</string>
+
+    <string name="des_orientacao_1_resp">Orientado</string>
+    <string name="des_orientacao_2_resp">Nâo Orientado</string>
+    <string name="desconexo">Desconexo</string>
+    <string name="conexo">Conexo</string>
+    <string name="c0">C0</string>
+    <string name="c1">C1</string>
+    <string name="c2">C2</string>
+    <string name="c3">C3</string>
+
+    <!-- (Coloracao) -->
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_coloracao">deve implementar HelperColoracao</string>
+    <!-- Strings do algoritmo coloração. -->
+    <string name="coloracao_n1">1:</string>
+    <string name="coloracao_lin1">para i ← 1 até n faça</string>
+
+    <string name="coloracao_n2">2:</string>
+    <string name="coloracao_lin2">Ci ← Ø</string>
+
+    <string name="coloracao_n3">3:</string>
+    <string name="coloracao_lin3">fim-para</string>
+
+    <string name="coloracao_n4">4:</string>
+    <string name="coloracao_lin4">Y ← V</string>
+
+    <string name="coloracao_n5">5:</string>
+    <string name="coloracao_lin5">k ← 1</string>
+
+    <string name="coloracao_n6">6:</string>
+    <string name="coloracao_lin6">enquanto Y != Ø faça</string>
+
+    <string name="coloracao_n7">7:</string>
+    <string name="coloracao_lin7">para vi E Y faça</string>
+
+    <string name="coloracao_n8">8:</string>
+    <string name="coloracao_lin8">se N(vi) ∩ Ck = Ø</string>
+
+    <string name="coloracao_n9">9:</string>
+    <string name="coloracao_lin9">Ck ← Ck ∪ {vi}</string>
+
+    <string name="coloracao_n10">10:</string>
+    <string name="coloracao_lin10">Y ← Y - {vi}</string>
+
+    <string name="coloracao_n11">11:</string>
+    <string name="coloracao_lin11">fim-se</string>
+
+    <string name="coloracao_n12">12:</string>
+    <string name="coloracao_lin12">fim-para</string>
+
+    <string name="coloracao_n13">13:</string>
+    <string name="coloracao_lin13">k ← k + 1</string>
+
+    <string name="coloracao_n14">14:</string>
+    <string name="coloracao_lin14">fim-enquanto</string>
+
+    <string name="coloracao_n15">15:</string>
+    <string name="coloracao_lin15">fim do algoritmo</string>
+
+
+    <!-- (DijkstraExecutor) -->
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_dijkstra">deve implementar HelperDijkstra</string>
+    <!-- Strings do algoritmo coloração. -->
+    <string name="dijkstra_lin1">Preencher a matriz principal com os vertices</string>
+
+    <string name="dijkstra_lin2">Preencher a matriz principal com os custo ∞</string>
+
+    <string name="dijkstra_lin3">Preencher a matriz principal com os antecessores -1</string>
+
+    <string name="dijkstra_lin4">Preencher a matriz principal o fechamento 0</string>
+
+    <string name="dijkstra_lin5">Definir o vertice inicial e atualiza a tabela e fechamento</string>
+
+    <string name="dijkstra_lin6">Acha-se o vértice aberto mais próximo da origem</string>
+
+    <string name="dijkstra_lin7">O vértice mais próximo da origem é fechado</string>
+
+    <string name="dijkstra_lin8">Para todos os sucessores ainda abertos</string>
+
+    <string name="dijkstra_lin9">Se (custo(origem) + custo(origem -> sucessor)) &#60; custo atual)</string>
+
+    <string name="dijkstra_lin10">Custo atual = (custo(origem) + custo(origem -> destino))</string>
+
+    <string name="dijkstra_lin11">Fim do Algoritmo</string>
+
+
+    <!-- (DialogSelecionaNo) -->
+    <string name="seleciona_origem">Escolha o nó de origem:</string>
+    <string name="seleciona_destino">Escolha o nó de destino:</string>
+    <string name="caminho_minimo">Caminho minimo</string>
+    <string name="executar">Executar</string>
+
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_seleciona_no">deve implementar HelperSelecionaNo</string>
+
+    <!-- (Profundidade) -->
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_profundidade">deve implementar HelperProfundidade</string>
+    <!-- Strings do algoritmo busca em profundidaade. -->
+    <string name="profundidade_lin1">Visita-se um nó n previamente selecionado</string>
+    <string name="profundidade_lin2">Marca o nó n</string>
+    <string name="profundidade_lin3">Empilha n em uma pilha P</string>
+    <string name="profundidade_lin4">Enquanto a pilha P não estiver vazia</string>
+    <string name="profundidade_lin5">O nó n é desempilhado da pilha P</string>
+    <string name="profundidade_lin6">Para cada nó m não marcado e adjacente a n faça</string>
+    <string name="profundidade_lin7">O nó m é visitado</string>
+    <string name="profundidade_lin8">O nó n é colocado na pilha P</string>
+    <string name="profundidade_lin9">O nó m é marcado</string>
+    <string name="profundidade_lin10">Troca o valor de n para m</string>
+    <string name="profundidade_lin11">Fim do algoritmo</string>
+
+
+    <!-- (Largura) -->
+    <!-- Mensagens de erro caso a interface não seja implementada. -->
+    <string name="helper_largura">deve implementar HelperProfundidade</string>
+    <!-- Strings do algoritmo busca em profundidaade. -->
+    <string name="largura_lin1">Visita-se um nó n previamente selecionado</string>
+    <string name="largura_lin2">Marca o nó n</string>
+    <string name="largura_lin3">Inserir n em uma fila F</string>
+    <string name="largura_lin4">Enquanto a fila F não estiver vazia</string>
+    <string name="largura_lin5">Retira um elemento da fila F e atribui ao nó n</string>
+    <string name="largura_lin6">Para cada nó m não marcado e adjacente a n faça</string>
+    <string name="largura_lin7">O nó m é visitado</string>
+    <string name="largura_lin8">O nó m é colocado na fila F</string>
+    <string name="largura_lin9">O nó m é marcado</string>
+    <string name="largura_lin10">Fim do algoritmo</string>
+
+</resources>

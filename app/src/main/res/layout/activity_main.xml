@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <!-- Incluir uma toolbar para mostrar para o usuário onde ele esta. -->
+    <include
+        android:id="@+id/toolbarMain"
+        layout="@layout/layout_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Nome do aplicativo na pagina inicial. -->
+    <TextView
+        android:id="@+id/textView"
+        style="@style/EstiloAthenaNome"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@+id/btnComecar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMain" />
+
+    <!-- Botões para passar para as paginas de selecionarOrientação, Sobre e Ajuda. -->
+    <Button
+        android:id="@+id/btnComecar"
+        style="@style/EstiloBotoes"
+        android:text="@string/btn_comecar"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSobre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSobre"
+        style="@style/EstiloBotoes"
+        android:text="@string/btn_sobre"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAjuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAjuda"
+        style="@style/EstiloBotoes"
+        android:text="@string/btn_ajuda"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

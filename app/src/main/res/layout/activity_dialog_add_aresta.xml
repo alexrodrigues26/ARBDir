@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DialogAddAresta">
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/EstiloTextoAlertDialog"
+        android:text="@string/no_saida"/>
+
+    <Spinner
+        android:id="@+id/sp_from"
+        style="@style/EstiloSpinnerAlertDialog"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/EstiloTextoAlertDialog"
+        android:layout_below="@id/sp_from"
+        android:text="@string/no_entrada"/>
+
+    <Spinner
+        android:id="@+id/sp_to"
+        style="@style/EstiloSpinnerAlertDialog"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/EstiloTextoAlertDialog"
+        android:layout_below="@id/sp_to"
+        android:text="@string/peso_aresta"/>
+
+    <EditText
+        android:id="@+id/edt_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:inputType="number"
+        android:hint="@string/peso_aresta_hint"
+        android:autofillHints="number"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/EstiloTextoAlertDialog"
+        android:layout_below="@id/edt_peso"
+        android:textSize="16sp"
+        android:text="@string/peso_aresta_dica"/>
+
+</RelativeLayout>

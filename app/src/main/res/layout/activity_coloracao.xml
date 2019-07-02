@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:padding="8dp"
+    tools:context=".Coloracao">
+
+    <!-- 1: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n1"
+        style="@style/EstiloTextoColoracao"
+        android:text="@string/coloracao_n1" />
+
+    <TextView
+        android:id="@+id/coloracao_l1"
+        android:layout_marginStart="35sp"
+        android:text="@string/coloracao_lin1"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 2: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n2"
+        android:text="@string/coloracao_n2"
+        android:layout_below="@id/coloracao_n1"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l2"
+        android:text="@string/coloracao_lin2"
+        android:layout_below="@id/coloracao_n1"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 3: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n3"
+        android:text="@string/coloracao_n3"
+        android:layout_below="@id/coloracao_n2"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l3"
+        android:text="@string/coloracao_lin3"
+        android:layout_below="@id/coloracao_n2"
+        android:layout_marginStart="35sp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 4: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n4"
+        android:text="@string/coloracao_n4"
+        android:layout_below="@id/coloracao_n3"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l4"
+        android:text="@string/coloracao_lin4"
+        android:layout_below="@id/coloracao_n3"
+        android:layout_marginStart="35sp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 5: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n5"
+        android:text="@string/coloracao_n5"
+        android:layout_below="@id/coloracao_n4"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l5"
+        android:text="@string/coloracao_lin5"
+        android:layout_below="@id/coloracao_n4"
+        android:layout_marginStart="35sp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 6: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n6"
+        android:text="@string/coloracao_n6"
+        android:layout_below="@id/coloracao_n5"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l6"
+        android:text="@string/coloracao_lin6"
+        android:layout_below="@id/coloracao_n5"
+        android:layout_marginStart="35sp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 7: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n7"
+        android:text="@string/coloracao_n7"
+        android:layout_below="@id/coloracao_n6"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l7"
+        android:text="@string/coloracao_lin7"
+        android:layout_below="@id/coloracao_n6"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 8: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n8"
+        android:text="@string/coloracao_n8"
+        android:layout_below="@id/coloracao_n7"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l8"
+        android:text="@string/coloracao_lin8"
+        android:layout_below="@id/coloracao_n7"
+        android:layout_marginStart="35sp"
+        android:paddingStart="50sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 9: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n9"
+        android:text="@string/coloracao_n9"
+        android:layout_below="@id/coloracao_n8"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l9"
+        android:text="@string/coloracao_lin9"
+        android:layout_below="@id/coloracao_n8"
+        android:layout_marginStart="35sp"
+        android:paddingStart="70sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 10: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n10"
+        android:text="@string/coloracao_n10"
+        android:layout_below="@id/coloracao_n9"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l10"
+        android:text="@string/coloracao_lin10"
+        android:layout_below="@id/coloracao_n9"
+        android:layout_marginStart="35sp"
+        android:paddingStart="70sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 11: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n11"
+        android:text="@string/coloracao_n11"
+        android:layout_below="@id/coloracao_n10"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l11"
+        android:text="@string/coloracao_lin11"
+        android:layout_below="@id/coloracao_n10"
+        android:layout_marginStart="35sp"
+        android:paddingStart="50sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 12: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n12"
+        android:text="@string/coloracao_n12"
+        android:layout_below="@id/coloracao_n11"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l12"
+        android:text="@string/coloracao_lin12"
+        android:layout_below="@id/coloracao_n11"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 13: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n13"
+        android:text="@string/coloracao_n13"
+        android:layout_below="@id/coloracao_n12"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l13"
+        android:text="@string/coloracao_lin13"
+        android:layout_below="@id/coloracao_n12"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0dp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 14: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n14"
+        android:text="@string/coloracao_n14"
+        android:layout_below="@id/coloracao_n13"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l14"
+        android:text="@string/coloracao_lin14"
+        android:layout_below="@id/coloracao_n13"
+        android:layout_marginStart="35sp"
+        style="@style/EstiloTextoColoracao"/>
+
+    <!-- 15: Linha -->
+
+    <TextView
+        android:id="@+id/coloracao_n15"
+        android:text="@string/coloracao_n15"
+        android:layout_below="@id/coloracao_n14"
+        style="@style/EstiloTextoColoracao"/>
+
+    <TextView
+        android:id="@+id/coloracao_l15"
+        android:text="@string/coloracao_lin15"
+        android:layout_below="@id/coloracao_n14"
+        android:layout_marginStart="35sp"
+        style="@style/EstiloTextoColoracao"/>
+
+</RelativeLayout>

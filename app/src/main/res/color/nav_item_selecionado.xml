@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Moda a cor do menu se um item foi selecionado entre branco e branco transparente. -->
+    <item android:state_checked="true"
+        android:color="@color/branco"/>
+
+    <item android:color="@color/brancoTransparente"/>
+</selector>

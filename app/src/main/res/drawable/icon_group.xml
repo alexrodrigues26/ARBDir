@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Ícones do listview para saber se está aberto ou fechado. -->
+    <item android:state_expanded="true" android:drawable="@drawable/ic_group_aberto"/>
+    <item android:drawable="@drawable/ic_group_fechado"/>
+
+</selector>

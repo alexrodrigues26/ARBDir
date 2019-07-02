@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Este é o tema para o aplicativo. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Este é o estilo para os botoes do aplicativo. -->
+    <style name="EstiloBotoes">
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:background">@drawable/background_botoes</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <!-- Este é o estilo para o nome do aplicativo na MainActivity. -->
+    <style name="EstiloAthenaNome">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">80sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <!-- Este é o estilo para o ExpandableListView do Sobre e Ajuda. -->
+    <style name="EstiloExpandableListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <!-- Este é o estilo para os textos dentro do ExpandableListView (header e item). -->
+    <style name="EstiloTextoExpandableListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Este é o estilo para os textos do AlertDialog. -->
+    <style name="EstiloTextoAlertDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Este é o estilo para os spnniers do AlertDialog. -->
+    <style name="EstiloSpinnerAlertDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <!-- Este é o estilo para os textos do MostraInfo. -->
+    <style name="EstiloTextoMostraInfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Este é o estilo para os textos do Coloracao. -->
+    <style name="EstiloTextoColoracao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+</resources>

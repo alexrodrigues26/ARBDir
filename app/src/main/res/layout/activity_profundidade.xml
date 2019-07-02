@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:padding="8dp">
+
+    <!-- 1: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n1"
+        style="@style/EstiloTextoColoracao"
+        android:text="@string/coloracao_n1" />
+
+    <TextView
+        android:id="@+id/profundidade_l1"
+        style="@style/EstiloTextoColoracao"
+        android:layout_marginStart="35sp"
+        android:text="@string/profundidade_lin1" />
+
+    <!-- 2: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n2"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l1"
+        android:text="@string/coloracao_n2" />
+
+    <TextView
+        android:id="@+id/profundidade_l2"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l1"
+        android:layout_marginStart="35sp"
+        android:text="@string/profundidade_lin2" />
+
+    <!-- 3: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n3"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l2"
+        android:text="@string/coloracao_n3" />
+
+    <TextView
+        android:id="@+id/profundidade_l3"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l2"
+        android:layout_marginStart="35sp"
+        android:text="@string/profundidade_lin3" />
+
+    <!-- 4: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n4"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l3"
+        android:text="@string/coloracao_n4" />
+
+    <TextView
+        android:id="@+id/profundidade_l4"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l3"
+        android:layout_marginStart="35sp"
+        android:text="@string/profundidade_lin4" />
+
+    <!-- 5: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n5"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l4"
+        android:text="@string/coloracao_n5" />
+
+    <TextView
+        android:id="@+id/profundidade_l5"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l4"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0sp"
+        android:text="@string/profundidade_lin5" />
+
+    <!-- 6: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n6"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l5"
+        android:text="@string/coloracao_n6" />
+
+    <TextView
+        android:id="@+id/profundidade_l6"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l5"
+        android:layout_marginStart="35sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="0sp"
+        android:text="@string/profundidade_lin6" />
+
+    <!-- 7: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n7"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l6"
+        android:text="@string/coloracao_n7" />
+
+    <TextView
+        android:id="@+id/profundidade_l7"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l6"
+        android:layout_marginStart="35sp"
+        android:paddingStart="50sp"
+        android:paddingEnd="0sp"
+        android:text="@string/profundidade_lin7" />
+
+    <!-- 8: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n8"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l7"
+        android:text="@string/coloracao_n8" />
+
+    <TextView
+        android:id="@+id/profundidade_l8"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l7"
+        android:layout_marginStart="35sp"
+        android:paddingStart="50sp"
+        android:paddingEnd="0sp"
+        android:text="@string/profundidade_lin8" />
+
+    <!-- 9: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n9"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l8"
+        android:text="@string/coloracao_n9" />
+
+    <TextView
+        android:id="@+id/profundidade_l9"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l8"
+        android:layout_marginStart="35sp"
+        android:paddingStart="50sp"
+        android:paddingEnd="0sp"
+        android:text="@string/profundidade_lin9" />
+
+    <!-- 10: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n10"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l9"
+        android:text="@string/coloracao_n10" />
+
+    <TextView
+        android:id="@+id/profundidade_l10"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l9"
+        android:layout_marginStart="35sp"
+        android:paddingStart="50sp"
+        android:paddingEnd="0sp"
+        android:text="@string/profundidade_lin10" />
+
+    <!-- 11: Linha -->
+
+    <TextView
+        android:id="@+id/profundidade_n11"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l10"
+        android:text="@string/coloracao_n11" />
+
+    <TextView
+        android:id="@+id/profundidade_l11"
+        style="@style/EstiloTextoColoracao"
+        android:layout_below="@id/profundidade_l10"
+        android:layout_marginStart="35sp"
+        android:text="@string/profundidade_lin11" />
+
+
+</RelativeLayout>

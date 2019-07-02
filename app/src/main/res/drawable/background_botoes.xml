@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Bordas do botão. -->
+    <corners android:radius="100dp"/>
+
+    <!-- Tamanho do botão. -->
+    <size android:width="200dp" android:height="60dp"/>
+
+    <!-- Define tamanho do botão. -->
+    <stroke
+        android:width="2dp"
+        android:color="#fff"/>
+
+    <!-- Cores de fundo do botão. -->
+    <gradient
+        android:angle="270"
+        android:centerX="50%"
+        android:startColor="#632AE8"
+        android:centerColor="#1EA80F"
+        android:endColor="#FF174D"
+        android:type="linear"/>
+</shape>

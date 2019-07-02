@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+
+    <!-- TextView para mostrar os grupos de dados do expandablelistview. -->
+    <TextView
+        android:id="@+id/infoGroup"
+        style="@style/EstiloTextoExpandableListView"
+        android:paddingStart="35dp"
+        android:paddingEnd="35dp"/>
+
+</LinearLayout>

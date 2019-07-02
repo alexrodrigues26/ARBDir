@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DialogDeletar">
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/EstiloTextoAlertDialog"
+        android:text="@string/selecione_para_deletar"/>
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_alignParentStart="true"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/rbNos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/nos"/>
+
+        <RadioButton
+            android:id="@+id/rbArestas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/arestas"/>
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spDeletar"
+        style="@style/EstiloSpinnerAlertDialog"
+        android:layout_below="@id/rGroup"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

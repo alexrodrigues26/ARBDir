@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Ajuda">
+
+    <!-- Incluir uma toolbar para mostrar para o usuário onde ele está. -->
+    <include
+        android:id="@+id/toolbarAjuda"
+        layout="@layout/layout_toolbar"/>
+
+    <!-- Este é um ExpandableListView para mostrar os elementos de Ajuda. -->
+    <ExpandableListView
+        android:id="@+id/ajudaExpandableListView"
+        style="@style/EstiloExpandableListView"/>
+
+</LinearLayout>
