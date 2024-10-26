@@ -3,18 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@color/preto"
     android:orientation="vertical"
     tools:context=".Sobre">
 
     <!-- Incluir uma toolbar para mostrar para o usuário onde ele está. -->
     <include
         android:id="@+id/toolbarSobre"
-        layout="@layout/layout_toolbar"/>
+        layout="@layout/layout_toolbar" />
 
     <!-- Este é um ExpandableListView para mostrar os elementos de Sobre. -->
     <ExpandableListView
         android:id="@+id/sobreExpandableListView"
-        style="@style/EstiloExpandableListView"/>
+        style="@style/EstiloExpandableListView" />
 
 </LinearLayout>

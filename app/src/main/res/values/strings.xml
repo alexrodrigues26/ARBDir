@@ -2,7 +2,7 @@
     <!-- As strings serão separadas e explicadas por classes. -->
     <!-- (MainActivity) -->
     <!-- Nome do aplicativo e texto para pagina inicial. -->
-    <string name="app_name">AAthena</string>
+    <string name="app_name">ARB DIR</string>
 
     <!-- Botões da pagina inicial. -->
     <string name="btn_comecar">Começar</string>
@@ -10,7 +10,7 @@
     <string name="btn_ajuda">Ajuda</string>
 
     <!-- String para a toolbar da MainActivity. -->
-    <string name="toolbar_main_activity">Bem vindo ao Athena</string>
+    <string name="toolbar_main_activity">Bem vindo</string>
 
     <!-- (Sobre) -->
     <!-- String para a toolbar da Sobre. -->
@@ -18,14 +18,13 @@
 
     <!-- String dos grupos de Sobre. -->
     <string name="txt_tg">O que é a Teoria dos Grafos?</string>
-    <string name="txt_athena">O que é o AAthena?</string>
-    <string name="txt_autores">Desenvolvedores.</string>
+    <string name="txt_arbdir">O que é o ARB Dir?</string>
+    <string name="txt_autores">Desenvolvedor.</string>
 
     <!-- String dos filhos dos groups de Sobre. -->
     <string name="txt_tg_child">A teoria dos grafos é a parte da matemática que estuda a relação entre objetos que possuem características relevantes entre si. Os grafos podem ser utilizados como modelos para representação de diversos problemas em variadas áreas, tais como: engenharia, biologia, serviços e indústria. Por meio dos seus algoritmos, é possível solucionar esses problemas.</string>
-    <string name="txt_athena_child">Este aplicativo tem por objetivo fornecer um meio para o estudo de teoria dos grafos, denominado AAthena (Athena para Android). Dentre as suas funcionalidades, tem-se: permite a criação visual de grafos e a apresentação de algumas propriedades básicas dos grafos. A partir dele, também é possível realizar a execução de alguns algoritmos e visualizar os resultados de forma simplificada.</string>
-    <string name="txt_autores_child_1">Gabriel Ricardo dos Santos</string>
-    <string name="txt_autores_child_2">Alex Rodrigues Braz</string>
+    <string name="txt_arbdir_child">Este aplicativo tem por objetivo fornecer um meio para o estudo de teoria dos grafos, denominado Aarbdir (arbdir para Android). Dentre as suas funcionalidades, tem-se: permite a criação visual de grafos e a apresentação de algumas propriedades básicas dos grafos. A partir dele, também é possível realizar a execução de alguns algoritmos e visualizar os resultados de forma simplificada.</string>
+    <string name="txt_autores_child_1">Alex Rodrigues Braz</string>
 
     <!-- (Ajuda) -->
     <!-- String para a toolbar da Ajuda. -->

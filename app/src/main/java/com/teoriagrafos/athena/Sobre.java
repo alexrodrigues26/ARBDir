@@ -62,7 +62,7 @@ public class Sobre extends AppCompatActivity {
 
         // Cria os grupos com as informações.
         listGroup.add(getString(R.string.txt_tg));
-        listGroup.add(getString(R.string.txt_athena));
+        listGroup.add(getString(R.string.txt_arbdir));
         listGroup.add(getString(R.string.txt_autores));
 
         // Cria os filhos dos grupos.
@@ -71,12 +71,11 @@ public class Sobre extends AppCompatActivity {
         listData.put(listGroup.get(0), auxList);
 
         auxList = new ArrayList<>();
-        auxList.add(getString(R.string.txt_athena_child));
+        auxList.add(getString(R.string.txt_arbdir_child));
         listData.put(listGroup.get(1), auxList);
 
         auxList = new ArrayList<>();
         auxList.add(getString(R.string.txt_autores_child_1));
-        auxList.add(getString(R.string.txt_autores_child_2));
         listData.put(listGroup.get(2), auxList);
     }
 
